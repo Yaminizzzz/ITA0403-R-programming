@@ -1,0 +1,5 @@
+find_min_max <- function(vec) {
+  list(min_value = min(vec), max_value = max(vec))
+}
+vec <- c(12, 45, 7, 89, 23, 56)
+print(find_min_max(vec))
