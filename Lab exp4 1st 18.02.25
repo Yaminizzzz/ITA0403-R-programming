@@ -1,0 +1,11 @@
+string_input <- "programming"
+unique_chars <- unique(strsplit(string_input, NULL)[[1]])
+
+num_vector <- c(1, 2, 2, 3, 4, 4, 5, 6, 6)
+unique_numbers <- unique(num_vector)
+
+print("Unique characters in the string:")
+print(unique_chars)
+
+print("Unique numbers in the vector:")
+print(unique_numbers)
