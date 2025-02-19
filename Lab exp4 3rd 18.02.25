@@ -1,0 +1,8 @@
+set.seed(42)  # For reproducibility
+random_numbers <- rnorm(100, mean = 50, sd = 10)  # Generate 100 random numbers
+
+# Count occurrences of rounded values
+occurrences <- table(round(random_numbers))
+
+print("Occurrences of each value:")
+print(occurrences)
