@@ -1,0 +1,8 @@
+extract_letters <- function() {
+  first_10_lower <- letters[1:10]
+  last_10_upper <- toupper(letters[17:26])
+  letters_22_24_upper <- toupper(letters[22:24])
+  list(first_10_lower = first_10_lower, last_10_upper = last_10_upper, letters_22_24_upper = letters_22_24_upper)
+}
+
+print(extract_letters())
