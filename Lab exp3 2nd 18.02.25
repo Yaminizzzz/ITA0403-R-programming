@@ -1,0 +1,15 @@
+num_vec <- c(1, 2, 3, 4, 5, 6)      # Numeric
+comp_vec <- c(1+2i, 2+3i, 3+4i, 4+5i, 5+6i, 6+7i)  # Complex
+log_vec <- c(TRUE, FALSE, TRUE, FALSE, TRUE, FALSE) # Logical
+char_vec <- c("A", "B", "C", "D", "E", "F") # Character
+
+print(num_vec)
+print(comp_vec)
+print(log_vec)
+print(char_vec)
+
+# 2. (ii) Adding a new item to a list
+my_list <- list(a = 10, b = "Hello", c = TRUE)
+my_list$g4 <- "R Prog"
+
+print(my_list)
