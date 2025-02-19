@@ -1,0 +1,13 @@
+Person <- function(name, age) {
+  obj <- list(name = name, age = age)
+  class(obj) <- "Person"
+  return(obj)
+}
+
+print.Person <- function(obj) {
+  cat("Person Name:", obj$name, "\n")
+  cat("Person Age:", obj$age, "\n")
+}
+
+john <- Person("John Doe", 30)
+print(john)
