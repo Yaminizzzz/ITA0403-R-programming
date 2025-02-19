@@ -1,0 +1,13 @@
+set.seed(123)  # For reproducibility
+rand_matrix <- matrix(sample(1:100, 12), nrow=3, byrow=TRUE)
+
+colnames(rand_matrix) <- c("uno", "dos", "tres", "cuatro")
+rownames(rand_matrix) <- c("x", "y", "z")
+
+print("Original Matrix:")
+print(rand_matrix)
+
+# Scaling by 10
+scaled_matrix <- rand_matrix * 10
+print("Scaled Matrix:")
+print(scaled_matrix)
