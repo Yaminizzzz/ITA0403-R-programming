@@ -1,0 +1,9 @@
+mat1 <- matrix(1:6, nrow=2, ncol=3)
+mat2 <- matrix(7:12, nrow=2, ncol=3)
+cbind_mat <- cbind(mat1, mat2)
+print("Column Binding:")
+print(cbind_mat)
+
+rbind_mat <- rbind(mat1, mat2)
+print("Row Binding:")
+print(rbind_mat)
