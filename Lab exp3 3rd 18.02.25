@@ -1,0 +1,5 @@
+rice_price <- 40.75
+sugar_price <- 30
+
+total_cost <- (2 * rice_price) + (5 * sugar_price)
+print(paste("Total cost: Rs.", total_cost))
