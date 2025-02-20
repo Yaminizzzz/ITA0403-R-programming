@@ -1,0 +1,13 @@
+# Create two data frames
+df1 <- data.frame(A = c(1, 2, 3), B = c(4, 5, 6))
+df2 <- data.frame(C = c(7, 8, 9))
+
+# Join columns
+df_col <- cbind(df1, df2)
+print("Columns joined:")
+print(df_col)
+
+# Join rows
+df_row <- rbind(df1, c(10, 11))
+print("Rows joined:")
+print(df_row)
