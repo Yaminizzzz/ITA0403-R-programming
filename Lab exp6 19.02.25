@@ -1,0 +1,14 @@
+# Create vectors
+numeric_vec <- c(1, 2, 3, 4, 5)
+char_vec <- c("a", "b", "c", "d")
+logical_vec <- c(TRUE, FALSE, TRUE, FALSE)
+
+# Display vectors and their types
+print(numeric_vec)
+print(typeof(numeric_vec))
+
+print(char_vec)
+print(typeof(char_vec))
+
+print(logical_vec)
+print(typeof(logical_vec))
