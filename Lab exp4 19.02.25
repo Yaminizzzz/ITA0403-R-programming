@@ -1,0 +1,11 @@
+# Install and load necessary package
+install.packages("class")
+library(class)
+
+# Create sample data
+train_data <- data.frame(x = c(1, 2, 3, 4, 5), y = c(1, 1, 0, 0, 1))
+test_data <- data.frame(x = c(1.5, 4.5))
+
+# KNN classification (k = 3)
+result <- knn(train = train_data[, "x", drop = FALSE], test = test_data, cl = train_data$y, k = 3)
+print(result)
