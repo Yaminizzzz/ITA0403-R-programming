@@ -1,0 +1,7 @@
+# Create two vectors
+vec1 <- c(1, 2, 3, 4, 5, 6)
+vec2 <- c(7, 8, 9, 10, 11, 12)
+
+# Create an array with two "tables"
+array2 <- array(c(vec1, vec2), dim = c(3, 3, 2), dimnames = list(Row = c("R1", "R2", "R3"), Col = c("C1", "C2", "C3")))
+print(array2)
