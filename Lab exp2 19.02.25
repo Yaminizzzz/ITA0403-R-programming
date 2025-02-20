@@ -1,0 +1,16 @@
+# String manipulation functions
+text <- "R programming"
+
+# Convert to uppercase
+print(toupper(text))
+
+# Convert to lowercase
+print(tolower(text))
+
+# Replace part of the string
+text_replace <- sub("programming", "language", text)
+print(text_replace)
+
+# Split the string
+text_split <- strsplit(text, " ")
+print(text_split)
